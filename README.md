@@ -27,13 +27,26 @@ Comércio eletrônico de celulares.
 
 <br>
 
-// ## Acesse ou visualize
+> ## Acesse ou visualize
+> 1. Clique no *link* que está na descrição do repositório para visualizar o projeto.
+> 2. Baixe o `zip` ou clone o repositório e abra no seu editor de código de prefêrencia. 
 
-// 1. Clique no *link* que está na descrição do repositório para visualizar o projeto.
+<br>
 
-// 2. Baixe o `zip` ou clone o repositório e abra no seu editor de código de prefêrencia.
+## Rode o projeto
+1. Clone este repositório:
+```sh
+  $ git clone https://github.com/gustamtz/getkcal.git
+```
 
+<br>
 
+2. Execute os seguintes comandos no terminal do VS Code:
+```sh
+  $ cd cellphone-store # acessando a pasta clonada.
+  $ npm install react-scripts --save # instalando scripts.
+  $ npm start # rodando o projeto no react app.
+```
 
 <br>
 <br> 
