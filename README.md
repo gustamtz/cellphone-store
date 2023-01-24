@@ -17,7 +17,7 @@ Comércio eletrônico de celulares.
 
 <br>
 
-## Features
+## Features/Aprendizado
 - API Mercado Livre.
 - useEffect.
 - useState.
