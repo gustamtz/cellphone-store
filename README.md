@@ -21,7 +21,7 @@ Comércio eletrônico de celulares.
 - API Mercado Livre.
 - useEffect.
 - useState.
-- local Storage.
+- localStorage.
 - React icons. 
 - Styled components.
 
