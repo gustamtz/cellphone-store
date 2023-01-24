@@ -5,7 +5,7 @@ import { Store } from "./pages/Store";
 export const Content = () => {
   return (
     <Switch>
-      <Route exact path="/store" component={Store} />
+      <Route exact path="/" component={Store} />
     </Switch>
   );
 };
