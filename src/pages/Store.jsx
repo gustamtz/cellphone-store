@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const Store = () => {
   const [data, setData] = useState([]);
-  const [cart, setCart] = useState(getItem("cart") || []);
+  const [cart, setCart] = useState(getItem("objcart") || []);
 
   useEffect(() => {
     const fetchApi = async () => {
@@ -22,10 +22,10 @@ export const Store = () => {
     if (element) {
       const arrFilter = cart.filter((e) => e.id !== obj.id);
       setCart(arrFilter);
-      setItem("cart", arrFilter);
+      setItem("objcart", arrFilter);
     } else {
       setCart([...cart, obj]);
-      setItem("cart", [...cart, obj]);
+      setItem("objcart", [...cart, obj]);
     }
   };
 
