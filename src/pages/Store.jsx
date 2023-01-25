@@ -4,7 +4,7 @@ import { getItem, setItem } from "../services/LocalStorageFuncs";
 
 export const Store = () => {
   const [data, setData] = useState([]);
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = useState(getItem("cart") || []);
 
   useEffect(() => {
     const fetchApi = async () => {
@@ -21,8 +21,10 @@ export const Store = () => {
     if (element) {
       const arrFilter = cart.filter((e) => e.id !== obj.id);
       setCart(arrFilter);
+      setItem("cart", arrFilter);
     } else {
       setCart([...cart, obj]);
+      setItem("cart", [...cart, obj]);
     }
   };
 
