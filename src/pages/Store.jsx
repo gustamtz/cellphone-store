@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BsFillCartPlusFill, BsFillCartCheckFill } from "react-icons/bs";
 import { getItem, setItem } from "../services/LocalStorageFuncs";
+import { Link } from "react-router-dom";
 
 export const Store = () => {
   const [data, setData] = useState([]);
@@ -30,6 +31,7 @@ export const Store = () => {
 
   return (
     <div>
+      <Link to={"/cart"}>Carrinho</Link>
       <h1>Store</h1>
       <div>
         {data.map((e) => (
