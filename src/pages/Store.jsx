@@ -37,7 +37,7 @@ export const Store = () => {
         {data.map((e) => (
           <div key={e.id}>
             <h4>{e.title}</h4>
-            <img src={e.thumbnail} alt="" />
+            <img src={e.thumbnail} alt={e.title} />
             <h4>{e.price}</h4>
             <button onClick={() => handleClick(e)}>
               {cart.some((itemCart) => itemCart.id === e.id) ? (
