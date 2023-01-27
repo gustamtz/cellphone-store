@@ -1,12 +1,12 @@
-# Em desenvolvimento.
+# Cellphone store.
 
 # Descrição 
 Comércio eletrônico de celulares.
 
-<br>
 
 # Preview
-![shop](https://user-images.githubusercontent.com/113216494/214326591-1df3f063-1a35-43c9-b356-fb0044af4b14.png)
+
+![ecommerce](https://user-images.githubusercontent.com/113216494/215128289-4b274d4c-d2c7-4cee-97c7-b94d7121474a.png)
 
 <br>
 
@@ -27,9 +27,9 @@ Comércio eletrônico de celulares.
 
 <br>
 
-> ## Acesse ou visualize
-> 1. Clique no *link* que está na descrição do repositório para visualizar o projeto.
-> 2. Baixe o `zip` ou clone o repositório e abra no seu editor de código de prefêrencia. 
+## Acesse ou visualize
+ 1. Clique no *link* que está na descrição do repositório para visualizar o projeto.
+ 2. Baixe o `zip` ou clone o repositório e abra no seu editor de código de prefêrencia. 
 
 <br>
 
