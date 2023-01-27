@@ -6,7 +6,7 @@ Comércio eletrônico de celulares.
 
 # Preview
 
-![ecommerce](https://user-images.githubusercontent.com/113216494/215193678-793d94b2-8f5a-4238-802a-bd20c2028012.png)
+![ecommerce](https://user-images.githubusercontent.com/113216494/215194159-ada5fd7a-c3ef-4ea6-9544-80c05aed375c.png)
 
 <br>
 
